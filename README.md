@@ -1,12 +1,24 @@
 # Rent-A-Car
-I developed a web-based project using the Spring Boot framework. I opted for the PostgreSQL database management system and utilized the Hibernate ORM framework for handling database operations.
 
-I developed a well-structured architecture consisting of different layers, including the business layer, data access layer, and presentation layer. I used DTO (Data Transfer Object) classes for data transfer between these layers.
+**Project Description:**
 
+I developed a web-based project using the Spring Boot framework, PostgreSQL database management system, and Hibernate ORM framework for handling database operations. The architecture is well-structured into different layers, including the business, data access, and presentation layers, with data transfer between layers handled by DTO classes.
 
-In this web-based project, I used Spring MVC to define API endpoints. Additionally, I integrated Swagger UI into the project. This allows users to browse the main functionalities of the project through the relevant API endpoints, test parameters, and view documentation.
+**Key Features:**
+- API endpoints defined using Spring MVC
+- Integration with Swagger UI for browsing functionalities, testing parameters, and viewing documentation
+- Customized exception handling and data validation using Java Bean Validation API and Hibernate Validator
+- CRUD operations for car brands and models through the API
 
-I customized exception classes and implemented a global exception handling mechanism for error management. I used the Java Bean Validation API and Hibernate Validator for data validation. This enabled me to ensure the accuracy of incoming requests and effectively handle erroneous requests.
+**Technologies Used:**
+- Spring Boot
+- PostgreSQL
+- Hibernate ORM
+- Spring MVC
+- Swagger UI
+- Java Bean Validation API
+- Hibernate Validator
 
+**Conclusion:**
 
-When the project runs successfully, user can access the API by sending requests to localhost:8080 and utilize the Swagger UI interface. Through the API, users can view car brands and models, add new brands and models, update existing brands and models, and perform deletion operations.
+In conclusion, this web-based project demonstrates the effective use of Spring Boot, PostgreSQL, and Hibernate ORM to develop a well-structured application with a layered architecture. The integration of Spring MVC and Swagger UI allows for easy browsing and testing of API endpoints, while customized exception handling and data validation ensure the accuracy of incoming requests. The project provides a user-friendly interface for managing car brands and models through CRUD operations.
