@@ -2,7 +2,7 @@
 
 **Project Description:**
 
-I developed a web-based project using the Spring Boot framework, PostgreSQL database management system, and Hibernate ORM framework for handling database operations. The architecture is well-structured into different layers, including the business, data access, and presentation layers, with data transfer between layers handled by DTO classes.
+I developed a web-based project using the Spring Boot framework, PostgreSQL database management system, and Hibernate ORM framework for handling database operations. The architecture is well-structured into different layers, including the business, data access, and presentation layers, with data transfer between layers handled by DTO (Data Transfer Object) classes.
 
 **Key Features:**
 - API endpoints defined using Spring MVC
