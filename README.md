@@ -17,7 +17,15 @@ I developed a web-based project using the Spring Boot framework, PostgreSQL data
 - Spring MVC
 - Swagger UI
 - Java Bean Validation API
-- Hibernate Validator
+- Hibernate ValidatorSure!
+  
+**Usage:**
+
+When the project is running successfully, users can access the API by sending requests to **localhost:8080** and using the Swagger UI interface. Through the API, users can perform the following operations:
+- View car brands and models
+- Add new car brands and models
+- Update existing car brands and models
+- Delete car brands and models
 
 **Conclusion:**
 
